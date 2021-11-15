@@ -1,8 +1,6 @@
 
-  
---
--- Installing python 3.6.5 on OEL 6.1 from source
---
+# Installing python 3.6.5 on OEL 6.1 from source
+
 sudo yum install tk-devel gdbm-devel
 mkdir python
 cd python
@@ -19,5 +17,5 @@ sudo ln -s /opt/python3.6/bin/python3.6 /usr/bin/python36
 sudo ln -s /opt/python3.6/bin/idle3.6 /usr/bin/idle-python36
 sudo ln -s /opt/python3.6/bin/pip3 /usr/bin/pip
  
--- run test:
+# run test:
 python36 
